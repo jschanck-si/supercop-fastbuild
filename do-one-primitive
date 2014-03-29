@@ -40,6 +40,8 @@ mkdir -p "$include"
 
 cp include/* "$include"
 
+exec 7>&1
+
 exec >"$top/log"
 exec 2>&1
 exec 5>"$top/data"
@@ -422,3 +424,6 @@ do
 
     break
 done
+
+exec 1>&7 7>&-
+cat $top/work/errors
