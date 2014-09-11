@@ -60,10 +60,10 @@ then
     echo "=== `date` === building scripts"
     cp -p scripts/* "$bin"
 
-    echo "=== `date` === building okcompilers"
+    echo "=== `date` === building okcompilers-short"
     rm -rf "$work"
     mkdir -p "$work"
-    cp -pr okcompilers/* "$work"
+    cp -pr okcompilers-short/* "$work"
     ( cd "$work" && sh do )
     cp -p "$work"/bin/* "$bin"
 
