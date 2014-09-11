@@ -1,7 +1,7 @@
 supercop-fastbuild
 ==================
 
-This is supercop-20140514 with a few changes to make testing new primitives easier.
+This is supercop-20140910 with a few changes to make testing new primitives easier.
 
 The main change is the addition of the "do-one-primitive" script. This lets you build
 just the packages you need to test the submission you're working on.
@@ -21,7 +21,7 @@ I've also removed most of the compilers from okcompilers/{c,cpp} and told the co
 to produce debugging information by default.
 
 
-Original source: http://hyperelliptic.org/ebats/supercop-20140514.tar.bz2
+Original source: http://hyperelliptic.org/ebats/supercop-20140910.tar.bz2
 
 Supercop: http://bench.cr.yp.to/supercop.html
 
