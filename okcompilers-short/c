@@ -1,2 +1,2 @@
-gcc -g -march=native -mtune=native -O3 -fomit-frame-pointer
-clang -g -O3 -fwrapv -march=native -fomit-frame-pointer
+gcc -g -O3 -march=native -mtune=native -fomit-frame-pointer
+clang -g -O3 -march=native -mtune=native -fomit-frame-pointer
